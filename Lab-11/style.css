@@ -1,0 +1,41 @@
+body {
+  background-color: rgb(40, 92, 170);
+}
+.to_do_list {
+  width: 450px;
+  height: 450px;
+  margin-left: 35%;
+  margin-top: 10%;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+.to_do_list_box {
+  width: 400px;
+  height: 350px;
+  border: 2px solid white;
+  margin-left: 5%;
+  position: relative;
+}
+.to_do_list_box_input  {
+  width: 330px;
+  height: 30px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.to_do_list_box_btn {
+  color: white;
+}
+
+.list{
+  width: 330px;
+  height: 30px;
+  border: 1px solid white;
+
+}
