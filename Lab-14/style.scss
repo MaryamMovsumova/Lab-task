@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #092635;
+}
+
+.digital {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+    &_title {
+        font-size: 48px;
+        text-align: center;
+        color: #5C8374;
+        margin-top: 30px;
+    }
+
+    .digital_clock {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin: 5%;
+
+        &_time {
+            font-size: 54px;
+            color: #9EC8B9;
+        }
+
+        &_minute {
+            font-size: 54px;
+            color: #9EC8B9;
+        }
+
+        &_second {
+            font-size: 54px;
+            color: #9EC8B9;
+        }
+    }
+}

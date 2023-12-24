@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #092635;
+}
+
+.digital {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.digital_title {
+  font-size: 48px;
+  text-align: center;
+  color: #5C8374;
+  margin-top: 30px;
+}
+.digital .digital_clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 5%;
+}
+.digital .digital_clock_time {
+  font-size: 54px;
+  color: #9EC8B9;
+}
+.digital .digital_clock_minute {
+  font-size: 54px;
+  color: #9EC8B9;
+}
+.digital .digital_clock_second {
+  font-size: 54px;
+  color: #9EC8B9;
+}/*# sourceMappingURL=style.css.map */
